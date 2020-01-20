@@ -1,0 +1,96 @@
+[
+  {
+    "model": "BMW",
+    "price": 120,
+    "color": "BLACK",
+    "mileage": 1500,
+    "components": [
+      "ABS",
+      "ALLOY WHEELS"
+    ]
+  },
+  {
+    "model": "BMW",
+    "price": 1200,
+    "color": "BLACK",
+    "mileage": 2500,
+    "components": [
+      "AC",
+      "GPS"
+    ]
+  },
+  {
+    "model": "AUDI",
+    "price": 150,
+    "color": "SILVER",
+    "mileage": 11250,
+    "components": [
+      "AC",
+      "AUTOMATIC TRANSMISSION"
+    ]
+  },
+  {
+    "model": "RENAULT",
+    "price": 200,
+    "color": "BLACK",
+    "mileage": 1500000,
+    "components": [
+      "ABS",
+      "AC",
+      "HEATED SEATS"
+    ]
+  },
+  {
+    "model": "SEAT",
+    "price": 520,
+    "color": "SILVER",
+    "mileage": 12000,
+    "components": [
+      "AC",
+      "PARKING SENSOR",
+      "AUTOMATIC TRANSMISSION"
+    ]
+  },
+  {
+    "model": "TOYOTA",
+    "price": 620,
+    "color": "RED",
+    "mileage": 220000,
+    "components": [
+      "AC"
+    ]
+  },{
+  "model": "SEAT",
+  "price": 1000,
+  "color": "WHITE",
+  "mileage": 340000,
+  "components": [
+    "GPS"
+  ]
+},{
+  "model": "RENAULT",
+  "price": 1200,
+  "color": "SILVER",
+  "mileage": 570000,
+  "components": [
+    "AUTOMATIC TRANSMISSION"
+  ]
+},{
+  "model": "BMW",
+  "price": 150,
+  "color": "WHITE",
+  "mileage": 190000,
+  "components": [
+    "AC"
+  ]
+},  {
+    "model": "MAZDA",
+    "price": 160,
+    "color": "WHITE",
+    "mileage": 2500,
+    "components": [
+      "AIR CONDITIONING",
+      "BLUETOOTH"
+    ]
+  }
+]
