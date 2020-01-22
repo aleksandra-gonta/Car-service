@@ -1,4 +1,4 @@
-package org.example.service.utils;
+package org.example.service;
 
 import org.eclipse.collections.impl.collector.BigDecimalSummaryStatistics;
 import org.eclipse.collections.impl.collector.Collectors2;
@@ -23,6 +23,7 @@ public class CarsService {
     public CarsService(Set<Car> cars) {
         this.cars = cars;
     }
+
 
     public List<Car> sortBy(OrderBy orderBy, boolean descending) {
         List<Car> orderedCars = switch (orderBy) {
