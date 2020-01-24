@@ -2,6 +2,7 @@ package org.example;
 
 
 import org.example.service.CarsService;
+import org.example.ui.MenuService;
 
 public class App
 {
@@ -10,7 +11,9 @@ public class App
         final String JSON_FILENAME = "cars.json";
         CarsService carsService = new CarsService(JSON_FILENAME);
 
-        System.out.println(carsService);
+
+        MenuService menuService = new MenuService(carsService);
+        menuService.mainMenu();
 
     }
 }
