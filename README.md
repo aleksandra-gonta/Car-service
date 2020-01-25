@@ -5,7 +5,6 @@ Simple console program simulating car service
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
-* [Code Examples] (# code examples)
 * [Features](#features)
 * [Status](#status)
 * [Inspiration](#inspiration)
