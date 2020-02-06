@@ -21,9 +21,9 @@ It is my first serious project that is suppose to show my current coding skills.
 
 ## Code Examples
 The user chooses one of the option from the menu in order to get the available cars, models, car components etc.
-![Image description](https://github.com/aleksandra-gonta/Car-service/issues/1#issue-560919916)
-![Image description](https://github.com/aleksandra-gonta/Car-service/issues/2#issue-560921448)
-![Image description](https://github.com/aleksandra-gonta/Car-service/issues/3#issue-560922063)
+![Menu screenshot](https://github.com/aleksandra-gonta/Car-service/issues/1#issue-560919916)
+![show cars method screenshot](https://github.com/aleksandra-gonta/Car-service/issues/2#issue-560921448)
+![group cars by components method screenshot](https://github.com/aleksandra-gonta/Car-service/issues/3#issue-560922063)
 
 
 ## Features
