@@ -16,16 +16,20 @@ It is my first serious project that is suppose to show my current coding skills.
 
 ## Technologies
 *[Maven](https://maven.apache.org/) - Dependency Management
-
+*Java
 ## Setup
 
 ## Code Examples
-
+The user chooses one of the option from the menu in order to get the available cars, models, car components etc.
+https://github.com/aleksandra-gonta/Car-service/issues/1#issue-560919916
+https://github.com/aleksandra-gonta/Car-service/issues/2#issue-560921448
+https://github.com/aleksandra-gonta/Car-service/issues/3#issue-560922063
 ## Features
 
 To-do list:
 * Test
 * Improvements
+* Convert to multi-module app
 
 ## Status
 Project is: in progress, to be developed in the future 
