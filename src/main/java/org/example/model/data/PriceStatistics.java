@@ -1,3 +1,4 @@
+/*This is class creating PriceStatistics object*/
 package org.example.model.data;
 
 import java.math.BigDecimal;

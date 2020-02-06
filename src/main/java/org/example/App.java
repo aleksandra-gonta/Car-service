@@ -1,3 +1,4 @@
+    /*Main class of the applicaion*/
 package org.example;
 
 

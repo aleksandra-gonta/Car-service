@@ -1,3 +1,4 @@
+/*This is class creating MileageStatistics object*/
 package org.example.model.data;
 
 public class MileageStatistics {

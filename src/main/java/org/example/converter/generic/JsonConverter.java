@@ -1,3 +1,4 @@
+/*This is generic converter class for JSON files conversion*/
 package org.example.converter.generic;
 
 import com.google.gson.Gson;
@@ -20,7 +21,7 @@ public abstract class JsonConverter<T> {
         this.jsonFilename = jsonFilename;
     }
 
-
+    /*Method returning optional object from Json file or throwing app exception*/
     public Optional<T> fromJson() {
         try (FileReader fileReader = new FileReader(jsonFilename)) {
             return Optional.of(gson.fromJson(fileReader, type));

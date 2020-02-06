@@ -1,3 +1,5 @@
+/*This class contains methods allowing car service managment*/
+
 package org.example.service;
 
 import org.eclipse.collections.impl.collector.BigDecimalSummaryStatistics;
@@ -27,7 +29,7 @@ public class CarsService {
     public CarsService(String jsonFilename) {
         this.cars = parseAndValidateCars(jsonFilename);
     }
-
+    /*Method parsing and validating car objects form JSON file*/
     private static Set<Car> parseAndValidateCars(String jsonFilename) {
 
         if (jsonFilename == null) {
@@ -53,7 +55,7 @@ public class CarsService {
                     return !orderValidator.hasErrors();
                 }).collect(Collectors.toSet());
     }
-
+    /*Method sorting cars by chosen factor, ASC or DESC*/
     public List<Car> sortBy(OrderBy orderBy, boolean descending) {
         List<Car> orderedCars = switch (orderBy) {
             case COLOR -> cars
@@ -83,6 +85,8 @@ public class CarsService {
         return orderedCars;
 
     }
+
+    /*Method returning list of cars with mileage higher than provided*/
     public List<Car> getCarsWithHigherMileage(double mileage) {
         return cars
                 .stream()
@@ -91,6 +95,7 @@ public class CarsService {
 
     }
 
+    /*Method returning map of colors and number of cars in the given color*/
     public Map<Color, Long> countCarsByTheColor() {
         return cars
                 .stream()
@@ -106,6 +111,7 @@ public class CarsService {
 
     }
 
+    /*Method returning map of models and the most expensive car of this model*/
     public Map<String, Car> groupByModelWithMostExpensiveCar() {
         return cars
                 .stream()
@@ -116,7 +122,7 @@ public class CarsService {
 
     }
 
-
+    /*Method calculating price and mileage statistics*/
     public Statistics calculateCarsStatistics() {
 
         DoubleSummaryStatistics mileageStats = cars.stream()
@@ -143,7 +149,7 @@ public class CarsService {
         return new Statistics(mileageStatistics, priceStatistics);
 
     }
-
+    /*Method listing the most expensive car(s)*/
     public List<Car> findMostExpensiveCars() {
 
         return cars
@@ -156,14 +162,14 @@ public class CarsService {
 
     }
 
-
+    /*Method returning list of sorted car components*/
     public List<Car> sortCarComponents() {
         return cars
                 .stream()
                 .peek(car -> car.setComponents(car.getComponents().stream().sorted().collect(Collectors.toList())))
                 .collect(Collectors.toList());
     }
-
+    /*Method returning map of components and corresponding cars containing these components*/
     public Map<String, List<Car>> groupCarsByComponents() {
 
         List<String> components = cars
@@ -181,7 +187,7 @@ public class CarsService {
 
         return carsContainingComponents;
     }
-
+    /*Method listing cars within provided price range*/
     public List<Car> findCarsInThePriceRange(BigDecimal minPrice, BigDecimal maxPrice) {
 
         return cars

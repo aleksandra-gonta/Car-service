@@ -1,3 +1,4 @@
+    /*This class provides console menu for car service*/
 package org.example.ui;
 
 import com.google.gson.Gson;
@@ -19,7 +20,7 @@ import java.util.Map;
 @RequiredArgsConstructor
 public class MenuService {
     private final CarsService carsService;
-
+    /*Method providing the chosen option*/
     public void mainMenu() {
         while (true) {
             try {
@@ -67,6 +68,7 @@ public class MenuService {
         return UserDataService.getInt("Choose option:");
     }
 
+    /*Methods option1-option10 used in the menu, based on all the methods from CarService Class*/
     private void option1() {
         System.out.println(carsService.toString());
     }
@@ -116,12 +118,12 @@ public class MenuService {
 
 
 
-
+    /*Method returning object from JSON file in a pretty printing manner*/
     private static <T> String toJson(T element) {
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         return gson.toJson(element);
     }
-
+    /*Method converting map*/
     private void convertMap(Map<?, ?> map) {
          MapUtils.verbosePrint(System.out,"", map);
     }

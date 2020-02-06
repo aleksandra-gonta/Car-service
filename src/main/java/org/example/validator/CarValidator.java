@@ -1,3 +1,4 @@
+    /*Class validating the correctness of car data object*/
 package org.example.validator;
 
 import org.example.model.Car;

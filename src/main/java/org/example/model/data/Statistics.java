@@ -1,3 +1,4 @@
+/*This is class returning Mileage and Price Statistics in one object*/
 package org.example.model.data;
 
 public class Statistics {

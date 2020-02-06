@@ -1,3 +1,4 @@
+/*This is enum providing different car colors*/
 package org.example.service.enums;
 
 public enum Color {
