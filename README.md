@@ -5,6 +5,7 @@ Simple console program simulating car service
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
+* [App screenshots](#app-screenshots)
 * [Features](#features)
 * [Status](#status)
 * [Inspiration](#inspiration)
@@ -16,10 +17,10 @@ It is my first serious project that is suppose to show my current coding skills.
 
 ## Technologies
 *[Maven](https://maven.apache.org/) - Dependency Management
-*Java
+*[Java 8+]
 ## Setup
 
-## Code Examples
+## App screenshots
 The user chooses one of the option from the menu in order to get the available cars, models, car components etc.
 
 Menu:
